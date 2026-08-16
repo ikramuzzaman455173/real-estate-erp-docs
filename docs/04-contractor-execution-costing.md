@@ -32,14 +32,16 @@ graph TD
     Contractor_Work[Contractor Work] --> Work_Measurement[Work Measurement]
     Work_Measurement --> Progress_Certificate[Progress Certificate]
     Progress_Certificate --> Contractor_Bill[Contractor Bill]
-    Contractor_Bill --> PM_Approval[Project Manager Approval]
+    Contractor_Bill --> Retention_Money[Retention/Security Deduction 5-10%]
+    Retention_Money --> Tax_VAT[VAT & TDS Deduction NBR Rules]
+    Tax_VAT --> PM_Approval[Project Manager Approval]
     PM_Approval --> Accounts_Verification[Accounts Verification]
     Accounts_Verification --> Management_Approval[Management Approval]
     Management_Approval --> Payment
     Payment --> Accounting_Entry[Accounting Entry]
 ```
 
-- ফেক বা ভুল বিল রোধে এই মাল্টি-লেভেল অ্যাপ্রুভাল ফ্লো খুবই কার্যকর।
+- ফেক বা ভুল বিল রোধে এই মাল্টি-লেভেল অ্যাপ্রুভাল ফ্লো খুবই কার্যকর। পাশাপাশি রিটেনশন মানি (যা হ্যান্ডওভারের পর রিলিজ হয়) এবং বাংলাদেশ সরকারের নিয়ম অনুযায়ী ট্যাক্স/ভ্যাট সঠিকভাবে কর্তন করা যায়।
 
 ## ৪.২. লেবার ও এমপ্লয়ি কস্টিং (Labour & Employee Costing)
 
@@ -76,7 +78,8 @@ graph TD
     Inspection --> Handover
 ```
 
-- **Milestones:** Land Acquisition -> Design Approval -> Foundation -> Structure -> Brick Work -> Electrical -> Plumbing -> Finishing -> Handover.
+- **Milestones:** Land Acquisition -> Regulatory Approvals (RajUK/CDA) -> Design Approval -> Foundation -> Structure -> Brick Work -> Electrical -> Plumbing -> Finishing -> Handover.
+- রেগুলেটরি বা আইনি অনুমোদনের দীর্ঘসূত্রিতা ও এর খরচগুলো এই মাইলস্টোনের অধীনে আলাদাভাবে ট্র্যাক করা যায়।
 - প্রতিটি মাইলস্টোনের জন্য: Start Date, End Date, Responsible Person, Budget, Actual Cost, Progress (%) এবং Status থাকবে।
 
 > [!WARNING]

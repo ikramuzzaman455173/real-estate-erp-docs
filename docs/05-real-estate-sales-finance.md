@@ -1,5 +1,5 @@
 <!-- NAV_START -->
-[◀️ পূর্ববর্তী (Previous): Contractor, Execution & Costing](./04-contractor-execution-costing.md) | [🏠 হোম (Home)](../README.md)
+[◀️ পূর্ববর্তী (Previous): Contractor, Execution & Costing](./04-contractor-execution-costing.md) | [🏠 হোম (Home)](../README.md) | [▶️ পরবর্তী (Next): Finance, Accounting & Reporting](./06-finance-accounting-reporting.md)
 ***
 <!-- NAV_END -->
 
@@ -52,7 +52,9 @@ graph TD
 - **Lead to Customer:** লিড ম্যানেজমেন্ট এবং কাস্টমার প্রোফাইল তৈরি।
 - **Booking & Agreement:** প্রজেক্ট এবং ইউনিট সিলেক্ট করে প্রাইস কোটেশন প্রদান, বুকিং মানি গ্রহণ এবং এগ্রিমেন্ট তৈরি।
 - **Installment Schedule:** কাস্টমারের সাথে চুক্তি অনুযায়ী কিস্তির সিডিউল জেনারেট করা।
+- **Post-Dated Cheque (PDC) Management:** কিস্তির জন্য দেওয়া পোস্ট-ডেটেড চেকগুলোর ডেডিকেটেড ট্র্যাকিং, বাউন্স অ্যালার্ট এবং ক্লিয়ারিং স্ট্যাটাস আপডেট।
 - **Payment Collection:** কিস্তি আদায় এবং একাউন্টস রিসিভেবল (Accounts Receivable) আপডেট করা।
+- **Delay Penalty:** কাস্টমার যদি নির্ধারিত সময়ে কিস্তি দিতে ব্যর্থ হয়, তবে স্বয়ংক্রিয়ভাবে বিলম্ব ফি বা জরিমানা হিসাব করা।
 - **Handover:** সম্পূর্ণ পেমেন্ট ক্লিয়ার হওয়ার পর ফ্ল্যাট বা প্রপার্টি হস্তান্তর।
 
 ## ৫.৩. একাউন্টিং ইন্টিগ্রেশন (Accounting Hub)

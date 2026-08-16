@@ -62,7 +62,7 @@ graph TD
 ### প্রজেক্টের প্রাথমিক তথ্য (Project Core Info):
 - Project Code & Name (যেমন: GV-001, Green Valley Residence)
 - Location & Project Type (Residential / Commercial)
-- **Joint Venture (JV) / Landowner Info:** জমির মালিকের তথ্য এবং শেয়ারিং রেশিও (Sharing Ratio)।
+- **Joint Venture (JV) / Landowner Info:** বাংলাদেশের প্রেক্ষাপটে জয়েন্ট ভেঞ্চার খুবই সাধারণ। তাই জমির মালিকের তথ্য, শেয়ারিং রেশিও (যেমন: ৫০:৫০) এবং সাইনিং মানি (যদি থাকে) এখানে ট্র্যাক করতে হবে।
 - Start Date & Expected End Date
 - Land Cost & Estimated Construction Cost
 - Total Budget

@@ -130,6 +130,12 @@ Handed Over
 Closed
 ```
 
+### 3.1 Joint Venture (JV) & Landowner Management
+বাংলাদেশের বেশিরভাগ প্রোজেক্ট JV বা জয়েন্ট ভেঞ্চার হয়ে থাকে। তাই Project তৈরির সময়ই এই বিষয়গুলো যুক্ত করতে হবে:
+* **Sharing Ratio:** যেমন ৫০:৫০ বা ৪০:৬০।
+* **Landowner Details:** জমির মালিকের তথ্য এবং তাদের জন্য বরাদ্দকৃত নির্দিষ্ট ফ্ল্যাট বা ইউনিট।
+* **Signing Money:** অনেক সময় মালিককে সাইনিং মানি দিতে হয়, যা সরাসরি Project Cost-এ যুক্ত হবে।
+
 ---
 
 # 4. Project Location
@@ -382,6 +388,14 @@ Remaining = 100
 
 ---
 
+# 9.1 Equipment & Machinery Management
+
+বড় প্রোজেক্টে কোম্পানির নিজস্ব বা ভাড়ায় আনা ভারী যন্ত্রপাতি (যেমন: এক্সকাভেটর, মিক্সার মেশিন, হোইস্ট) ব্যবহৃত হয়।
+* **Machinery Allocation:** কোন প্রোজেক্টে কোন মেশিন আছে।
+* **Fuel & Maintenance:** মেশিনের জ্বালানি ও মেইনটেন্যান্স খরচ সরাসরি ঐ Project Cost-এ যুক্ত হবে।
+
+---
+
 # 10. Contractor Management
 
 Construction project-এ contractor আলাদা entity হিসেবে রাখা উচিত।
@@ -449,6 +463,10 @@ Progress Certificate
       ↓
 Contractor Bill
       ↓
+Retention/Security Money Deduction (5-10%)
+      ↓
+VAT & TDS Deduction (NBR Rules)
+      ↓
 Project Manager Approval
       ↓
 Accounts Verification
@@ -460,7 +478,7 @@ Payment
 Accounting Entry
 ```
 
-এতে fake বা ভুল bill হওয়ার chance কমে।
+এতে fake বা ভুল bill হওয়ার chance কমে। পাশাপাশি রিটেনশন মানি (যা হ্যান্ডওভারের পর রিলিজ হয়) এবং ট্যাক্স/ভ্যাট সঠিকভাবে কর্তন করা যায়।
 
 ---
 
@@ -528,6 +546,7 @@ Marketing
 Consultant
 Repair
 Miscellaneous
+Regulatory Approvals (RajUK/CDA/Fire Service)
 ```
 
 ---
@@ -663,6 +682,12 @@ Full Payment
  ↓
 Handover
 ```
+
+### 17.1 Post-Dated Cheque (PDC) Management
+ইন্সটলমেন্ট সাধারণত PDC এর মাধ্যমে দেওয়া হয়। তাই সিস্টেমে একটি ডেডিকেটেড PDC ট্র্যাকিং স্ক্রিন থাকতে হবে যা চেক বাউন্স হওয়ার আগে অ্যালার্ট দিবে এবং ক্লিয়ারিং স্ট্যাটাস আপডেট করবে।
+
+### 17.2 Delay Penalty / Surcharge
+ক্রেতা যদি নির্ধারিত সময়ে পেমেন্ট করতে ব্যর্থ হয়, তবে স্বয়ংক্রিয়ভাবে বিলম্ব ফি বা জরিমানা হিসাব করার ফিচার থাকতে হবে।
 
 ---
 
@@ -1166,6 +1191,13 @@ Accounting Update
    ↓
 End-of-Day Project Cost
 ```
+
+### 28.1 Mobile App / Field Portal for Site Engineers
+কনস্ট্রাকশন সাইট থেকে সহজে কাজ করার জন্য সাইট ইঞ্জিনিয়ারদের একটি মোবাইল অ্যাপ বা পোর্টাল থাকা উচিত। এর মাধ্যমে তারা সহজেই:
+* Daily Labour Attendance দিতে পারবে।
+* সাইট থেকে সরাসরি Purchase Requisition করতে পারবে।
+* সাইটে Material Receive (Site GRN) কনফার্ম করতে পারবে।
+* প্রতিদিনের Construction Progress এর ছবি আপলোড করতে পারবে।
 
 ---
 
